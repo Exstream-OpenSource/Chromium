@@ -1,0 +1,11 @@
+{
+  "manifest_version":  1,
+  "name": "service:app_driver",
+  "display_name": "App Driver",
+  "capabilities": {
+    "required": {
+      "*": [ "mash:launchable", "mus:window_manager" ],
+      "service:catalog": [ "catalog:catalog" ]
+    }
+  }
+}

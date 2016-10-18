@@ -1,0 +1,10 @@
+{
+  "manifest_version": 1,
+  "name": "exe:navigation_unittests",
+  "display_name": "Navigation Unittests",
+  "capabilities": {
+    "required": {
+      "*": [ "app" ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "manifest_version":  1,
+  "name": "service:content_utility",
+  "display_name": "Content (utility process)",
+  "capabilities": {
+    "provided": {
+      "browser": [
+        "IPC::mojom::ChannelBootstrap",
+        "service_manager::mojom::ServiceFactory"
+      ],
+      "service_manager:service_factory": [
+        "service_manager::mojom::ServiceFactory"
+      ]
+    }
+  }
+}

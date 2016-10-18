@@ -1,0 +1,10 @@
+{
+  "manifest_version":  1,
+  "name": "exe:mus_demo_unittests",
+  "display_name": "MUS Demo Unittests",
+  "capabilities": {
+    "required": {
+      "*": [ "app", "test" ]
+    }
+  }
+}

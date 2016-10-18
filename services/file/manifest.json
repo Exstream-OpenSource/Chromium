@@ -1,0 +1,15 @@
+{
+  "manifest_version": 1,
+  "name": "service:file",
+  "process-group": "browser",
+  "display_name": "File Service",
+  "capabilities": {
+    "provided": {
+      "file:filesystem": [ "file::mojom::FileSystem" ],
+      "file:leveldb": [ "leveldb::mojom::LevelDBService" ]
+    },
+    "required": {
+      "*": [ "app" ]
+    }
+  }
+}

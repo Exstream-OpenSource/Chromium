@@ -1,0 +1,13 @@
+{
+  "manifest_version":  1,
+  "name": "service:leveldb",
+  "display_name": "LevelDB Service",
+  "capabilities": {
+    "provided": {
+      "leveldb:leveldb": [ "leveldb::mojom::LevelDBService" ]
+    },
+    "required": {
+      "*": [ "app" ]
+    }
+  }
+}
